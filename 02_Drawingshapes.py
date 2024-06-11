@@ -1,7 +1,7 @@
 import numpy as np 
 import cv2 as cv 
 
-img = cv.imread('navidPic.jpg', cv.IMREAD_COLOR)
+img = cv.imread('./img/navidPic.jpg', cv.IMREAD_COLOR)
 
 """
 # Draw a line

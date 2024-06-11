@@ -1,7 +1,7 @@
 import numpy as np 
 import cv2 as cv 
 
-img = cv.imread('navidPic.jpg', cv.IMREAD_COLOR)
+img = cv.imread('./img/navidPic.jpg', cv.IMREAD_COLOR)
 # Convert color to gray via cv
 img_gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 

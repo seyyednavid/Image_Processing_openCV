@@ -2,7 +2,7 @@ import numpy as np
 import cv2 as cv 
 
 # img_book = cv.imread('bookpage.jpg')
-img_book = cv.imread('brainmri.jpeg')
+img_book = cv.imread('./img/brainmri.jpeg')
 img_book_gray = cv.cvtColor(img_book, cv.COLOR_BGR2GRAY)
 ret, thresh1= cv.threshold(img_book_gray, 132, 255, cv.THRESH_BINARY)
 

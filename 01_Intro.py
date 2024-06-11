@@ -2,8 +2,8 @@ import numpy as np
 import cv2 as cv 
 from  matplotlib import pyplot as plt
 
-img_gray = cv.imread('navidPic.jpg',cv.IMREAD_GRAYSCALE)
-img_color = cv.imread('navidPic.jpg',cv.IMREAD_COLOR)
+img_gray = cv.imread('./img/navidPic.jpg',cv.IMREAD_GRAYSCALE)
+img_color = cv.imread('./img/navidPic.jpg',cv.IMREAD_COLOR)
 
 # cv.IMREAD_GRAYSCALE == 0 = gray color
 # cv.INREAD_COLOR == 1  => for having image with colors

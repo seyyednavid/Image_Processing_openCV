@@ -1,8 +1,8 @@
 import numpy as np 
 import cv2 as cv 
 
-img1 = cv.imread('navidPic.jpg')
-img2 = cv.imread('save1_g_.jpg')
+img1 = cv.imread('./img/navidPic.jpg')
+img2 = cv.imread('./img/save1_g_.jpg')
 
 # added = img1 + img2
 # added = cv.add(img1, img2)
